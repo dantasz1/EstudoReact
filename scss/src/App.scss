@@ -1,0 +1,39 @@
+// Arquivo App.scss
+
+$red: red;
+$roxo: purple;
+
+body {
+  background-color: $roxo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .cartao {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+   justify-content: center;
+   align-items: center;
+
+    .botao {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       // Aplica a cor vermelha ao texto do botão
+    }
+  }
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $red;
+    font-size: 20px
+  }
+}
+
